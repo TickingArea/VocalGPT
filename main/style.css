@@ -1,0 +1,30 @@
+p.messagep {
+    background-color: rgb(120, 245, 255);   
+}
+p.messagep:hover {
+    background-color: rgb(120, 245, 255);
+    cursor: pointer;
+}
+
+span.timestamp {
+    opacity: 0.7;
+}
+
+div.messaged {
+    margin-bottom: -20px;
+}
+
+body {
+    max-height: 100%;
+    overflow: hidden;
+}
+
+.container {
+    max-height: 100%;
+    overflow: hidden;
+}
+
+.message-container {
+    max-height: 85vh;
+    overflow-y: scroll;
+}
